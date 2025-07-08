@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h4 {
+    color: #f15fd1;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #333;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #e0e0e0; /* Hover-Effekt */
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 40px;
+    font-size: 1em;
+    background-color: #de0bb0; /* Button-Hintergrundfarbe */
+    color: white; /* Schriftfarbe */
+    border: none;
+    border-radius: 5px; /* Abgerundete Ecken */
+    cursor: pointer; /* Zeigerzeiger beim Hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Hover-Farbe des Buttons */
+}
