@@ -33,5 +33,5 @@ This game was part of my Bachelor's thesis and explores:
 
 ---
 
-## 📁 Project Structure
+
 
